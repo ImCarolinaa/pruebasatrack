@@ -1,0 +1,30 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "API RESTful in Node.js using Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "API",
+    "RESTful"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "supertest": "^6.1.6"
+  }
+}
